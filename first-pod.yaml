@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: web-socket # name
+  labels:
+    mylabelname: web-socket
+spec:
+  containers:
+  - name: web-socket # name for the container
+    image: stas25/socket_project:latest  # location of the image
+
