@@ -12,10 +12,10 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:    # ??
     conn, addr = s.accept()                     ## Server accepts connection and Listen
     with conn:
         print('Connected by IP: ', addr)
-        while True:
-            data = conn.recv(1024)
-            if not data:
-                break
-            conn.sendall(data)
+        # while True:
+        #     data = conn.recv(1024)
+        #     if not data:
+        #         break
+        #     conn.sendall(data)
             # socket.close()
 
