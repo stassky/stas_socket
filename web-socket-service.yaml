@@ -11,7 +11,7 @@ spec:
       port: 80          ## Port inside the Pod ##
       nodePort: 30080   ## Expose to port 30080 ##
   selector:
-
+    ## defines which pods are going to be represented by this service ##
     mylabelname: web-socket
   # Create an HA proxy in the cloud provider
   # with an External IP address - *Only supported
