@@ -1,0 +1,17 @@
+1. Open a new repo on gitHub For the Project.
+
+2. Connect DockerHub to GitHub`s repo & automated Builds
+
+3. Make the code 
+
+4. Create a dockerfile
+
+5. Create two .Yaml files, 1 for the pod and one for the service, so they will have the ability communicate since pods are invisible outside the cluster.
+
+6. Push Dockerfile and python file through GitHub Desktop.
+(Since DockerHub is connected to GitHub and configured to autobuild, it will autobuild after changes will be made in the folder files).
+
+7. Deploy the pod to cluster.
+
+
+ 
