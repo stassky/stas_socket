@@ -8,8 +8,8 @@ spec:
   ports:
     # Accept traffic sent to port 80
     - name: http
-      port: 80          ## Port inside the Pod ##
-      nodePort: 65432   ## Expose to port 30080 ##
+      port: 65432          ## Port inside the Pod ##
+      #nodePort: 30080   ## Expose to port 30080 ##
   selector:
     ## defines which pods are going to be represented by this service ##
     mylabelname: web-socket
